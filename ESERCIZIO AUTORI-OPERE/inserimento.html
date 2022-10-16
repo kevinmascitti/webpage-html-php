@@ -1,0 +1,74 @@
+<html>
+<head>
+	<title>Inserimento dati</title>
+</head>
+<body>
+<h4> Aggiunta nuovo autore e opera </h4>
+
+<form method="get" action="inserimento.php">
+
+	<table>
+		<tr> 
+			<th align="left" width="120">Dati autore </th> 
+		</tr>
+
+		<tr> 
+			<td>Cod. Autore</td> 
+			<td> <input type="text" size="10" maxlength="10" name="codA"> </td> 
+		</tr>
+		<tr> 
+			<td>Nome Autore</td> 
+			<td> <input type="text" size="30" maxlength="30" name="nomeA"> </td> 
+		</tr>
+		<tr> 
+			<td>Cognome Autore</td> 
+			<td> <input type="text" size="30" maxlength="30" name="cognomeA"> </td> 
+		</tr>
+		<tr> 
+			<td>Anno di nascita</td> 
+			<td> <input type="text" size="4" maxlength="4" name="annoNascita"> </td> 
+		</tr>
+		<tr> 
+			<td>Citt&agrave; di nascita</td> 
+			<td> <input type="text" size="20" maxlength="20" name="cittaNascita"> </td> 
+		</tr>
+	</table>
+
+	<br/>
+	
+	<table>
+		<tr> 
+			<th align="left" width="120">Dati opera</th> 
+		</tr>
+
+		<tr> 
+			<td>Cod. Opera</td> 
+			<td> <input type="text" size="10" maxlength="10" name="codO"> </td> 
+		</tr>
+		<tr> 
+			<td>Nome Opera</td> 
+			<td> <input type="text" size="30" maxlength="30" name="nomeO"> </td> 
+		</tr>
+		<tr> 
+			<td>Categoria</td> 
+			<td> <input type="text" size="20" maxlength="20" name="categoria"> </td> 
+		</tr>
+		<tr> 
+			<td>Citt&agrave;</td> 
+			<td> <input type="text" size="20" maxlength="20" name="citta"> </td> 
+		</tr>
+		<tr> 
+			<td>Nazione</td> 
+			<td> <input type="text" size="20" maxlength="20" name="nazione"> </td> 
+		</tr>
+	</table>
+
+	<br/>
+
+	<input type="reset" value="Cancella">
+	<input type="submit" value="Invia">
+
+</form>
+
+</body>
+</html>

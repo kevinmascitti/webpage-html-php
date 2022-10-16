@@ -1,0 +1,41 @@
+<html>
+<head>
+	<title>Opere</title>
+</head>
+
+<body>
+<h4> Impostare anno di nascita dell'autore e città interessata </h4>
+
+<form method="get" action="effettuaricerca.php">
+
+	Data di nascita compresa tra
+
+	<table>
+	<tr> 
+		<td> anno </td>  
+		<td> <input type="text" size="4" maxlength="4" name="annoDa"> </td> 
+	</tr>
+
+	<tr> 
+		<td> e anno </td>  
+		<td> <input type="text" size="4" maxlength="4" name="annoA"> </td> 
+	</tr>
+
+	<tr> 
+		<td> Città: </td>
+		<td>	<select name="città">
+					<option value="Torino">Torino</option>
+					<option value="Milano">Milano</option>
+					<option value="Roma">Roma</option>
+					<option value="Napoli">Napoli</option>
+				</select>
+		</td> 
+	</tr>
+</table>
+<br/>
+<input type="reset" value="Cancella">
+<input type="submit" value="Invia">
+</form>
+
+</body>
+</html>
